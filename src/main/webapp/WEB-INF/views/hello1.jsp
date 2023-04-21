@@ -10,7 +10,17 @@
 <head>
     <title>hello1</title>
 </head>
-<body>da
+<body>
     <a href="/">index</a>
+    <form action="/form-param1" method="get">
+        <input type="text" name="p1"> <br>
+        <input type="text" name="p2"> <br>
+        <input type="submit" value="전송">
+    </form>
+    <form action="/form-param2" method="post">
+        <input type="text" name="p3"> <br>
+        <input type="text" name="p4"> <br>
+        <input type="submit" value="전송">
+    </form>
 </body>
 </html>

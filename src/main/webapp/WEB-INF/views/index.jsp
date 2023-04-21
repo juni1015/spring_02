@@ -14,6 +14,10 @@
     <a href="/hello1">hello1</a>
 <%--    <a href="/hello2">hello2</a>--%>
     <button onclick="fun1()">hello2</button>
+
+    <a href="/hello3">hello3</a>
+    <a href="/hello4">hello4</a>
+    <a href="/hello5">hello5</a>
 </body>
 <script>
     const fun1 = () => {
